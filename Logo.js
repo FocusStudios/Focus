@@ -194,9 +194,9 @@ const SideNavbar = [
 
   { link: "https://focusstudios.github.io/SideNavbar/GlowEffect.html", demo: "https://focusstudios.github.io/SideNavbar-Demo/GlowEffect.html", title: "Glow Effect" },
   { link: "https://focusstudios.github.io/SideNavbar/ShadowEffect.html", demo: "https://focusstudios.github.io/SideNavbar-Demo/ShadowEffect.html", title: "Shadow Effect" },
-  { link: "https://focusstudios.github.io/SideNavbar/Glassmorphism.html", demo: "https://focusstudios.github.io/SideNavbar-Demo/Glassmorphism.html", title: "Glassmorphism Effect" },
+  { link: "https://focusstudios.github.io/SideNavbar/HamGlass.html", demo: "https://focusstudios.github.io/SideNavbar-Demo/Glassmorphism.html", title: "Glassmorphism Effect" },
   { link: "https://focusstudios.github.io/SideNavbar/LightDark.html", demo: "https://focusstudios.github.io/SideNavbar-Demo/LightDark.html", title: "Light & Dark Mode" },
-  { link: "https://focusstudios.github.io/SideNavbar/SmartHomeApp.html", demo: "https://focusstudios.github.io/SideNavbar-Demo/SmartHomeApp.html", title: "Smart Home App" },
+  { link: "https://focusstudios.github.io/SideNavbar/SmartHome.html", demo: "https://focusstudios.github.io/SideNavbar-Demo/SmartHome.html", title: "Smart Home App" },
   { link: "https://focusstudios.github.io/SideNavbar/Neumorphism.html", demo: "https://focusstudios.github.io/SideNavbar-Demo/Neumorphism.html", title: "Neumorphism Effect" }
 
 ]
