@@ -389,7 +389,7 @@ Back.addEventListener("click",() => {
   setTimeout(() => {
     
    logo.classList.remove("active");
-   ProjectContainer.querySelector(".wrapper").classList.remov("active");
+   ProjectContainer.querySelector(".wrapper").classList.remove("active");
   
   },600);
 
