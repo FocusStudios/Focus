@@ -713,7 +713,6 @@ grid-template-columns:repeat(1,calc(100vw - 60px));}
 
 .logo-container footer .lists ul {
 position:relative;
-width:150px;
 margin-bottom:30px;
 list-style:none;
 display:flex;
@@ -722,23 +721,16 @@ flex-direction:column;}
 .logo-container footer .lists ul li {
 position:relative;
 width:100%;
-height:30px;
+padding:10px 0;
 display:flex;
 align-items:center;
 justify-content:start;}
 
 .logo-container footer .lists ul li a, .logo-container footer .lists ul li a span {
-position:absolute;
-left:0;
+position:relative;
 font-size:0.7rem;
 cursor:pointer;
 text-decoration:none !important;}
-
-.logo-container footer .lists ul:last-child li span {
-left:25px;}
-
-.logo-container footer .lists ul .titleP a {
-cursor:default;}
 
 .logo-container footer .lists ul li .contact {
 position:absolute;
@@ -746,18 +738,21 @@ width:100%;
 height:20px;
 display:flex;
 align-items:center;
-justify-content:center;}
+justify-content:start;
+gap:20px;}
 
-.logo-container footer .lists ul li .n:hover, .logo-container footer .lists ul li .contact:hover span {
+.logo-container footer .lists ul li a:hover, .logo-container footer .lists ul li .contact:hover span {
 color:transparent;
 background:var(--gradient1);
 background-clip:text;
 -webkit-background-clip:text;
 text-shadow:0 1px 5px rgba(51,255,255,0.8);}
 
+.logo-container footer .lists ul li .contact .icon {
+position:relative;}
+
 .logo-container footer .lists ul li .contact img {
 position:absolute;
-left:-5px;
 width:25px;
 height:25px;}
 
