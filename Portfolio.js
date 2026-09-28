@@ -43,12 +43,12 @@ const features = [
 ];
 
 const reviews = [
-  {name: "Daniel Carter", text: "Focus delivered clean, responsive code that perfectly matched our designs and worked smoothly across all devices.", img: "Icons/profile1.png"},
-  {name: "Ryan Parker", text: "Turning our designs into code was effortless. The result was clean, responsive, well-structured, and ready to use across different devices.", img: "Icons/profile2.png"},
-  {name: "Sarah Collins", text: "Focus combines design and development expertise, delivering high-quality code while preserving every detail of our UI/UX concepts.", img: "Icons/profile3.png"},
-  {name: "Michael Turner", text: "Our UI designs were transformed into polished, responsive code with excellent attention to detail and a smooth user experience.", img: "Icons/profile4.png"},
-  {name: "Emily Johnson", text: "Focus delivered accurate, scalable front-end code with perfect layouts, animations, and interactions. A great design-to-code choice.", img: "Icons/profile5.png"},
-  {name: "Jessica Brown", text: "The design-to-code process was incredibly smooth. The final HTML, CSS, and JavaScript perfectly matched our UI designs.", img: "Icons/profile6.png"}
+  {name: "Daniel Carter", text: "Focus delivered clean, responsive code that perfectly matched our designs and worked smoothly across all devices.", img: "Icons/person1.png"},
+  {name: "Ryan Parker", text: "Turning our designs into code was effortless. The result was clean, responsive, well-structured, and ready to use across different devices.", img: "Icons/person2.png"},
+  {name: "Sarah Collins", text: "Focus combines design and development expertise, delivering high-quality code while preserving every detail of our UI/UX concepts.", img: "Icons/person3.png"},
+  {name: "Michael Turner", text: "Our UI designs were transformed into polished, responsive code with excellent attention to detail and a smooth user experience.", img: "Icons/person4.png"},
+  {name: "Emily Johnson", text: "Focus delivered accurate, scalable front-end code with perfect layouts, animations, and interactions. A great design-to-code choice.", img: "Icons/person5.png"},
+  {name: "Jessica Brown", text: "The design-to-code process was incredibly smooth. The final HTML, CSS, and JavaScript perfectly matched our UI designs.", img: "Icons/person6.png"}
 ];
 
 
