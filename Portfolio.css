@@ -754,7 +754,7 @@ width:15px;
 height:15px;}
 
 .logo-container footer .lists ul li .contact .on {
-filter:drop-shadow(0 2px 4px rgba(51,255,255,0.2));}
+filter:drop-shadow(0 1px 5px rgba(51,255,255,0.8));}
 
 .logo-container footer .lists ul li .contact:hover .on, .logo-container footer .lists ul li .contact .off {
 opacity:1;}
