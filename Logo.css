@@ -86,7 +86,7 @@ align-items:center;
 justify-content:center;
 overflow:hidden;}
 
-.logo-container h1, .logo-container .section2 span, .logo-container footer .lists ul .titleP a, .logo-container footer .social-media span, .logo-container footer .social-media p {
+.logo-container h1, .logo-container .section2 span, .logo-container footer .lists ul .title, .logo-container footer .social-media span, .logo-container footer .social-media p {
 position:relative;
 font-weight:600;
 font-size:0.85rem;
