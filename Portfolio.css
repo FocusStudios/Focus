@@ -309,7 +309,7 @@ transform-origin:50% 50%;}
 
 .logo-container .percentage {
 position:absolute;
-font-size:22px;
+font-size:1rem;
 font-weight:800;
 color:transparent;
 background:var(--gradient1);
@@ -350,13 +350,13 @@ box-shadow:0 5px 15px rgba(51,255,255,0.2);}
 
 .logo-container .section4 .icon {
 position:absolute;
-top:30px;
+top:25px;
 width:100px;
 height:100px;}
 
 .logo-container .section4 span {
 position:absolute;
-bottom:50px;
+bottom:45px;
 font-size:1rem;}
 
 /* ===== SECTION 5 ===== */
