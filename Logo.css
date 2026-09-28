@@ -3,6 +3,8 @@ html {
 scroll-behavior:smooth;}
 
 body {
+width:100vw;
+height:100vh;
 display:flex;
 justify-content:center;
 align-items:center;
@@ -38,8 +40,8 @@ src:url('JS/digital-7.ttf') format('truetype');}
 .logo-container {
 position:fixed;
 top:0;
-width:100vw;
-height:100vh;
+width:100%;
+height:100%;
 overflow-x:hidden;
 overflow-y:auto;
 scroll-behavior:smooth;
