@@ -372,7 +372,6 @@ flex-direction:column;}
 .logo-container .section5 h1 {
 position:relative;
 align-self:flex-start;
- background:red;
 margin:calc(20px*(var(--i1) - var(--i2))/var(--i3)) 30px;}
 
 .logo-container .section5 .carousel-wrapper {
