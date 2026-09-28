@@ -177,8 +177,8 @@ to {opacity:1;transform:translateY(0);}}
 
 .logo-container .section1 {
 position:relative;
-padding:calc(20px + 20px*(var(--i1) - var(--i2))/var(--i3));
-padding-bottom:calc(100px + 100px*(var(--i1) - var(--i2))/var(--i3));
+/*padding:calc(20px + 20px*(var(--i1) - var(--i2))/var(--i3));
+padding-bottom:calc(100px + 100px*(var(--i1) - var(--i2))/var(--i3));*/
 display:flex;
 flex-direction:column;
 gap:calc(20px + 20px*(var(--i1) - var(--i2))/var(--i3));
