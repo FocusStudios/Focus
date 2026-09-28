@@ -309,7 +309,7 @@ transform-origin:50% 50%;}
 
 .logo-container .percentage {
 position:absolute;
-font-size:1rem;
+font-size:1.5rem;
 font-weight:800;
 color:transparent;
 background:var(--gradient1);
@@ -702,7 +702,7 @@ background:var(--primary);}
 
 .logo-container footer .lists {
 position:relative;
-width:calc(85% - 15%*(var(--i1) - var(--i2))/var(--i3));
+width:calc(85% - 20%*(var(--i1) - var(--i2))/var(--i3));
 display:flex;
 justify-content:space-between;}
 
@@ -722,7 +722,7 @@ justify-content:start;}
 
 .logo-container footer .lists ul li a, .logo-container footer .lists ul li a span {
 position:relative;
-font-size:0.7rem;
+font-size:0.8rem;
 cursor:pointer;
 text-decoration:none !important;}
 
