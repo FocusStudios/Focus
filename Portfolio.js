@@ -36,9 +36,9 @@ const languages = ["HTML", "CSS", "JavaScript"];
 const features = [
   {img: "Icons/Diamond.svg", title: "Code", text: "Unique Design"},
   {img: "Icons/Idea.svg", title: "Create", text: "Creative Ideas"},
-  {img: "Icons/Customize.svg", title: "Responsive", text: "Fully Customizable"},
+  {img: "Icons/Customize.svg", title: "Responsive", text: "Custom Design"},
   {img: "Icons/Scalable.svg", title: "Enhance", text: "Scalable Code"},
-  {img: "Icons/OnTime.svg", title: "Animation", text: "On Time Delivery"},
+  {img: "Icons/OnTime.svg", title: "Animation", text: "Timely Delivery"},
   {img: "Icons/ShakeHands.svg", title: "Maintainace", text: "Ongoing Support"}
 ];
 
