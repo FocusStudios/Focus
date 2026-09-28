@@ -39,7 +39,7 @@ const features = [
   {img: "Icons/Customize.svg", title: "Responsive", text: "Custom Design"},
   {img: "Icons/Scalable.svg", title: "Enhance", text: "Scalable Code"},
   {img: "Icons/OnTime.svg", title: "Animation", text: "Timely Delivery"},
-  {img: "Icons/ShakeHands.svg", title: "Maintainace", text: "Ongoing Support"}
+  {img: "Icons/ShakeHands.svg", title: "Maintainace", text: "Full Support"}
 ];
 
 const reviews = [
