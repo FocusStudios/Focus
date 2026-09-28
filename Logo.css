@@ -739,7 +739,8 @@ height:20px;
 display:flex;
 align-items:center;
 justify-content:start;
-gap:20px;}
+gap:20px;
+background:red;}
 
 .logo-container footer .lists ul li a:hover, .logo-container footer .lists ul li .contact:hover span {
 color:transparent;
