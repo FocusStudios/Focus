@@ -86,8 +86,7 @@ align-items:center;
 justify-content:center;
 overflow:hidden;}
 
-.logo-container h1, .logo-container .section2 span, .logo-container footer .lists ul .title, .logo-container footer .social-media span, .logo-container footer .social-media p {
-position:relative;
+.logo-container h1, .logo-container .section2 span, .logo-container footer .lists ul .title span, .logo-container footer .social-media span, .logo-container footer .social-media p {
 font-weight:600;
 font-size:0.85rem;
 color:transparent;
@@ -97,6 +96,7 @@ background-clip:text;
 line-height:25px;
 text-align:center;
 letter-spacing:1px;
+background:red;
 text-shadow:0 1px 5px rgba(51,255,255,0.5);}
 
 .logo-container header .text-container {
@@ -183,15 +183,13 @@ opacity:0;
 margin-top:calc(-10%*(var(--i1) - var(--i2))/var(--i3));}
 
 .logo-container .section1 h1, .logo-container .section2 h1, .logo-container .section4 h1, .logo-container .section5 h1 {
-position:relative;
 font-size:calc(1.2rem + 1.5rem*(var(--i1) - var(--i2))/var(--i3));
 line-height:calc(30px + 30px*(var(--i1) - var(--i2))/var(--i3));
 font-weight:1000;
 text-align:center;}
 
 .logo-container .section1 h1 {
-text-align:left;
-max-width:420px;}
+text-align:left;}
 
 .logo-container .section1 p, .logo-container .section3 .language {
 font-size:calc(0.8rem + 0.8rem*(var(--i1) - var(--i2))/var(--i3));
@@ -705,23 +703,20 @@ background:var(--primary);}
 
 .logo-container footer .lists {
 position:relative;
-width:100vw;
-display:grid;
-justify-content:center;
-gap:0;
-grid-template-columns:repeat(1,calc(100vw - 60px));}
+width:85%;
+display:flex;
+justify-content:space-between;}
 
 .logo-container footer .lists ul {
 position:relative;
-margin-bottom:30px;
+margin-bottom:40px;
 list-style:none;
 display:flex;
-flex-direction:column;}
+flex-direction:column;
+gap:15px;}
 
 .logo-container footer .lists ul li {
 position:relative;
-width:100%;
-padding:10px 0;
 display:flex;
 align-items:center;
 justify-content:start;}
@@ -733,14 +728,11 @@ cursor:pointer;
 text-decoration:none !important;}
 
 .logo-container footer .lists ul li .contact {
-position:absolute;
-width:100%;
-height:20px;
+position:relative;
 display:flex;
 align-items:center;
 justify-content:start;
-gap:20px;
-background:red;}
+gap:5px;}
 
 .logo-container footer .lists ul li a:hover, .logo-container footer .lists ul li .contact:hover span {
 color:transparent;
@@ -750,7 +742,9 @@ background-clip:text;
 text-shadow:0 1px 5px rgba(51,255,255,0.8);}
 
 .logo-container footer .lists ul li .contact .icon {
-position:relative;}
+position:relative;
+width:15px;
+height:15px;}
 
 .logo-container footer .lists ul li .contact img {
 position:absolute;
@@ -766,27 +760,19 @@ opacity:0;}
 .logo-container footer .social-media {
 position:relative;
 width:100%;
-height:140px;
+margin-bottom:10px;
 display:flex;
 align-items:center;
 justify-content:center;
-margin-bottom:10px;}
-
-.logo-container footer .social-media span {
-position:absolute;
-top:0;}
+flex-direction:column;
+gap:20px;}
 
 .logo-container footer .social-media p {
-position:absolute;
-bottom:0;
 font-weight:500;
 font-size:0.6rem;}
 
 .logo-container footer .social-media .items {
-position:absolute;
-top:50px;
-width:190px;
-height:40px;
+position:relative;
 display:flex;
 align-items:center;
 justify-content:center;
@@ -815,6 +801,13 @@ position:absolute;
 width:100%;
 height:100%;}
 
+@media (max-width:680px) {
+
+.logo-container footer .lists {
+flex-direction:column;}
+
+}
+
 @media (min-width:680px) and (max-width:930px) {
 
 .logo-container .section2 ul, .logo-container .section4 ul {
@@ -826,10 +819,6 @@ grid-template-columns:repeat(2,200px);}
 .logo-container .section3 > :last-child {
 grid-column:1 / -1;
 justify-self:center;}
-
-.logo-container footer .lists {
-grid-template-columns:repeat(3,auto);
-gap:calc(25vw - 530px/4);}
 
 .logo-container footer .lists > :nth-child(4) {
 grid-column:1 / -1;
@@ -845,10 +834,6 @@ grid-template-columns:repeat(3,auto);}
 .logo-container .section3 {
 grid-template-columns:repeat(3,200px);}
 
-.logo-container footer .lists {
-grid-template-columns:repeat(3,auto);
-gap:calc(25vw - 150px);}
-
 .logo-container footer .lists > :nth-child(4) {
 grid-column:1 / -1;
 justify-self:center;}
@@ -860,8 +845,8 @@ justify-self:center;}
 .project-container {
 position:fixed;
 top:0;
-width:100vw;
-height:100vh;
+width:100%;
+height:100%;
 opacity:0;
 display:flex;
 align-items:center;
