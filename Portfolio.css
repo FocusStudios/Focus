@@ -875,6 +875,7 @@ pointer-events:none;
 display:flex;
 align-items:center;
 justify-content:center;
+flex-direction:column;
 gap:100px;
 background:var(--background);}
 
