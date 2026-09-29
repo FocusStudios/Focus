@@ -875,6 +875,7 @@ pointer-events:none;
 display:flex;
 align-items:center;
 justify-content:center;
+gap:100px;
 background:var(--background);}
 
 .project-container .wrapper.active {
@@ -882,10 +883,10 @@ overflow-y:auto;
 pointer-events:auto;}
 
 .project-container nav {
-position:absolute;
-top:80px;
+position:relative;
 width:90vw;
 height:70px;
+margin-top:80px;
 transition:0.3s;
 z-index:5;
 display:flex;
@@ -893,7 +894,6 @@ justify-content:center;
 align-items:center;
 border-radius:35px;
 overflow:hidden;
-font-weight:1000;
 background:var(--primary);}
 
 .project-container nav .carousel {
@@ -933,6 +933,7 @@ display:flex;
 justify-content:center;
 align-items:center;
 font-size:0.8rem;
+font-weight:1000;
 white-space:nowrap;
 text-overflow:ellipsis;
 max-width:400px;
@@ -964,10 +965,9 @@ box-shadow:0 3px 6px rgba(0,255,255,0.2);}
 transform:scale(0.9);}
 
 .project-container .Container {
-position:absolute;
-top:0;
+position:relative;
 width:100%;
-padding:230px 0 80px 0;
+padding-bottom:80px;
 opacity:0;
 display:grid;
 justify-content:center;
