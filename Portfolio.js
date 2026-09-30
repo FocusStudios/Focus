@@ -203,8 +203,8 @@ const SideNavbar = [
 
 const LandingPage = [
 
-  { link: "https://focusstudios.github.io/LandingPage/Skincare.html", demo: "https://focusstudios.github.io/LandingPage-Demo/Skincare.html", title: "Skincare Landing Page" },
-  { link: "https://focusstudios.github.io/LandingPage/Burger.html", demo: "https://focusstudios.github.io/LandingPage-Demo/Burger.html", title: "Fast Food Landing Page" },
+  { link: "https://focusstudios.github.io/LandingPage/Skincare.html", demo: "https://focusstudios.github.io/LandingPage/Skincare-Demo.html", title: "Skincare Landing Page" },
+  { link: "https://focusstudios.github.io/LandingPage/Burger.html", demo: "https://focusstudios.github.io/LandingPage/Burger-Demo.html", title: "Fast Food Landing Page" },
 
 ]
 
