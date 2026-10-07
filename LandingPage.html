@@ -77,6 +77,8 @@ width:100%;
 padding:230px 0 80px 0;
 display:grid;
 justify-content:center;
+grid-template-columns:repeat(1,calc(330px + 490px * (100vw - 360px)/1200px));
+gap:calc(80px + 120px * (100vw - 360px)/1200px);
 overflow:hidden;}
  
 .Container li {
@@ -91,9 +93,9 @@ font-optical-sizing:auto;}
 
 .Container a, .Container iframe {
 position:relative;
-width:330px;
-height:330px;
-border-radius:20px;
+width:calc(330px + 490px * (100vw - 360px)/1200px);
+height:calc(330px + 490px * (100vw - 360px)/1200px);
+border-radius:calc(20px + 30px * (100vw - 360px)/1200px);
 display:flex;
 justify-content:center;
 align-items:center;
@@ -118,39 +120,6 @@ background:linear-gradient(#00FFFF,#00FF9F);
 -webkit-background-clip:text;
 background-clip:text;
 text-shadow:0 1px 5px rgba(51,255,255,0.5);}
-
-@media screen and (max-width: 750px) {
-
-.Container {
-grid-template-columns:repeat(1,330px);
-gap:80px;}
-
-.Container li {
-transform:scale(1);}
-
-}
-
-@media screen and (min-width: 750px) {
-
-.Container {
-grid-template-columns:repeat(2,330px);
-gap:40px;}
-
-.Container li {
-transform:scale(0.8);}
-
-}
-
-@media screen and (min-width: 1100px) {
-
-.Container {
-grid-template-columns:repeat(3,330px);
-gap:40px;}
-
-.Container li {
-transform:scale(0.8);}
-
-}
 
 </style>
 
