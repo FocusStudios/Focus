@@ -1009,6 +1009,7 @@ height:calc(330px + 490px * (100vw - 360px)/1200px);
 border-radius:calc(20px + 30px * (100vw - 360px)/1200px);}
 
 .project-container .LandingPage iframe {
+position:absolute;
 width:1000px;
 height:1000px;
 transform:scale(calc((330px + 490px * (100vw - 360px)/1200px)/1000px));}
