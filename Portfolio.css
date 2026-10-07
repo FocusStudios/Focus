@@ -1003,12 +1003,14 @@ height:600px;}
 .project-container .BottomNavbar a, .project-container .BottomNavbar iframe {
 height:250px;}
 
-.project-container .LandingPage a, .project-container .LandingPage iframe {
+.project-container .LandingPage a {
 width:calc(330px + 490px * (100vw - 360px)/1200px);
 height:calc(330px + 490px * (100vw - 360px)/1200px);
 border-radius:calc(20px + 30px * (100vw - 360px)/1200px);}
 
 .project-container .LandingPage iframe {
+width:1000px;
+height:1000px;
 transform:scale(calc((330px + 490px * (100vw - 360px)/1200px)/1000px));}
 
 .project-container .Container iframe {
