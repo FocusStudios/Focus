@@ -1006,7 +1006,7 @@ height:250px;}
 .project-container .LandingPage a {
 width:calc(330px + 490px * (100vw - 360px)/1200px);
 height:calc(330px + 490px * (100vw - 360px)/1200px);
-border-radius:calc(20px + 30px * (100vw - 360px)/1200px);}
+border-radius:calc(10px + 15px * (100vw - 360px)/1200px);}
 
 .project-container .LandingPage iframe {
 position:absolute;
