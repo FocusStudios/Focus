@@ -91,11 +91,11 @@ gap:30px;
 font-family:"Roboto", sans-serif;
 font-optical-sizing:auto;}
 
-.Container a, .Container iframe {
+.Container a {
 position:relative;
 width:calc(330px + 490px * (100vw - 360px)/1200px);
-height:calc(330px + 490px * (100vw - 360px)/1200px);
-border-radius:calc(20px + 30px * (100vw - 360px)/1200px);
+height:calc(330px + 490px * (100vw - 360px)/1200px;
+border-radius:calc(10px + 15px * (100vw - 360px)/1200px);
 display:flex;
 justify-content:center;
 align-items:center;
@@ -105,8 +105,10 @@ outline:2px solid rgba(255,255,255,0.2);
 box-shadow:-1px 4px 10px rgba(255,255,255,0.05);}
 
 .Container iframe {
-border:none;
-pointer-events:none;}
+position:absolute;
+width:1000px;
+height:1000px;
+transform:scale(calc((330px + 490px * (100vw - 360px)/1200px)/1000px));}
 
 .Container span {
 position:relative;
