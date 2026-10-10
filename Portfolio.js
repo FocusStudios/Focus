@@ -122,37 +122,37 @@ Section4.querySelector("ul").innerHTML += `
 // Reviews
 reviews.forEach(review => {
 
-Section5.querySelector("ul").innerHTML += `
+ Section5.querySelector("ul").innerHTML += `
 
-<li>
+  <li>
 
-<img class="profile" src="${review.img}">
+   <img class="profile" src="${review.img}">
 
-<div class="details">
+   <div class="details">
 
-<p>${review.text}</p>
+    <p>${review.text}</p>
 
-<div class="line"></div>
+    <div class="line"></div>
 
-<div class="wrapper">
+    <div class="wrapper">
 
-<span class="gradient">${review.name}</span>
+     <span class="gradient">${review.name}</span>
 
-<div class="rate">
-<img class="star" src="Icons/star.svg">
-<img class="star" src="Icons/star.svg">
-<img class="star" src="Icons/star.svg">
-<img class="star" src="Icons/star.svg">
-<img class="star" src="Icons/star.svg">
-</div>
+     <div class="rate">
+      <img class="star" src="Icons/star.svg">
+      <img class="star" src="Icons/star.svg">
+      <img class="star" src="Icons/star.svg">
+      <img class="star" src="Icons/star.svg">
+      <img class="star" src="Icons/star.svg">
+     </div>
 
-</div>
+    </div>
 
-</div>
+   </div>
 
-</li>
+  </li>
 
-`;
+ `;
 
 });
 
@@ -204,7 +204,7 @@ const SideNavbar = [
 const LandingPage = [
 
   { link: "https://focusstudios.github.io/LandingPage/Skincare.html", demo: "https://focusstudios.github.io/LandingPage/Skincare-Demo.html", title: "Skincare Landing Page" },
-  { link: "https://focusstudios.github.io/LandingPage/Burger.html", demo: "https://focusstudios.github.io/LandingPage/Burger-Demo.html", title: "Fast Food Landing Page" },
+  { link: "https://focusstudios.github.io/LandingPage/Burger.html", demo: "https://focusstudios.github.io/LandingPage/Burger-Demo.html", title: "Burger Landing Page" },
 
 ]
 
@@ -254,73 +254,76 @@ let MaxScrollLeft = Section5.querySelector(".carousel-container").scrollWidth - 
 
 function onScroll() {
 
-if (triggered) return;
+ if (triggered) return;
 
-if (LogoContainer.scrollTop >= Header.offsetHeight + Section1.offsetHeight + 0.4 * Section2.offsetHeight) {
+ if (LogoContainer.scrollTop >= Header.offsetHeight + Section1.offsetHeight + 0.4 * Section2.offsetHeight) {
 
-triggered = true;
+   triggered = true;
 
-// start animation
-setInterval(() => {animate();},10);
+   // start animation
+   setInterval(() => {animate();},10);
       
-}
+ }
 
 }
 
 function animate() {
 
-if (current1 <= target1) {
-const offset = circumference - (current1 / 100) * circumference;
-progresss[0].style.strokeDashoffset = offset;
-textPs[0].textContent = current1 + '%';
-current1++;
-    
-}
+ if (current1 <= target1) {
 
-if (current2 <= target2) {
-const offset = circumference - (current2 / 100) * circumference;
-progresss[1].style.strokeDashoffset = offset;
-textPs[1].textContent = current2 + '%';
-current2++;
+   const offset = circumference - (current1 / 100) * circumference;
+   progresss[0].style.strokeDashoffset = offset;
+   textPs[0].textContent = current1 + '%';
+   current1++;
     
-}
+ }
 
-if (current3 <= target3) {
-const offset = circumference - (current3 / 100) * circumference;
-progresss[2].style.strokeDashoffset = offset;
-textPs[2].textContent = current3 + '%';
-current3++;
+ if (current2 <= target2) {
+
+   const offset = circumference - (current2 / 100) * circumference;
+   progresss[1].style.strokeDashoffset = offset;
+   textPs[1].textContent = current2 + '%';
+   current2++;
     
-}
+ }
+
+ if (current3 <= target3) {
+   
+   const offset = circumference - (current3 / 100) * circumference;
+   progresss[2].style.strokeDashoffset = offset;
+   textPs[2].textContent = current3 + '%';
+   current3++;
+    
+ }
 
 }
 
 // Show Sections
 LogoContainer.addEventListener("scroll",() => {
 
-if(LogoContainer.scrollTop >= 0.5 * Header.offsetHeight){Section1.style.opacity="1";}
+ if(LogoContainer.scrollTop >= 0.5 * Header.offsetHeight){Section1.style.opacity="1";}
 
-if(LogoContainer.scrollTop >= Header.offsetHeight + 0.3 * Section1.offsetHeight){
+ if(LogoContainer.scrollTop >= Header.offsetHeight + 0.3 * Section1.offsetHeight){
 
-Section2.style.opacity="1";
+    Section2.style.opacity="1";
 
-Section2.querySelectorAll("li").forEach((Item,index) => {
-Item.style.animation = "Show5 0.5s ease forwards";
-Section2.querySelectorAll("li")[index].style.animationDelay = `${index * 0.2}s`;
-});
+    Section2.querySelectorAll("li").forEach((Item,index) => {
+     Item.style.animation = "Show5 0.5s ease forwards";
+     Section2.querySelectorAll("li")[index].style.animationDelay = `${index * 0.2}s`;
+    });
 
-}
+ }
 
-onScroll();
+ onScroll();
 
-if(LogoContainer.scrollTop >= Header.offsetHeight + Section1.offsetHeight + Section2.offsetHeight + 0.2 * Section3.offsetHeight){
+ if(LogoContainer.scrollTop >= Header.offsetHeight + Section1.offsetHeight + Section2.offsetHeight + 0.2 * Section3.offsetHeight){
 
-Section4.querySelectorAll("li").forEach((Item,index) => {
-Item.style.animation = "Show5 0.5s ease forwards";
-Section4.querySelectorAll("li")[index].style.animationDelay = `${index * 0.2}s`;
-});
+   Section4.querySelectorAll("li").forEach((Item,index) => {
+    Item.style.animation = "Show5 0.5s ease forwards";
+    Section4.querySelectorAll("li")[index].style.animationDelay = `${index * 0.2}s`;
+   });
 
-}
+ }
 
 });
 
@@ -328,31 +331,31 @@ rect = glass.getBoundingClientRect();
 
 function updateDimensions() {
 
-MaxScrollLeft = Section5.querySelector(".carousel-container").scrollWidth - Section5.querySelector(".carousel-container").clientWidth;
+ MaxScrollLeft = Section5.querySelector(".carousel-container").scrollWidth - Section5.querySelector(".carousel-container").clientWidth;
 
-// Touch or mouse setup
-if ("ontouchstart" in document.documentElement) {
+ // Touch or mouse setup
+ if ("ontouchstart" in document.documentElement) {
 
-ProjectContainer.classList.replace("mouse","touch");
+   ProjectContainer.classList.replace("mouse","touch");
 
-} else {
+ } else {
 
-ProjectContainer.classList.replace("touch","mouse");
+   ProjectContainer.classList.replace("touch","mouse");
 
-}
+ }
 
 // Clip path position
 if(window.innerWidth > window.innerHeight){Y = window.innerWidth;}else{Y = window.innerHeight;}
 
 if(ProjectContainer.classList.contains("active")){
     
-ProjectContainer.style.clipPath=`circle(${Y}px at 50vw 50vh)`;
+ ProjectContainer.style.clipPath=`circle(${Y}px at 50vw 50vh)`;
 
 }else{
 
-rect = glass.getBoundingClientRect();
+ rect = glass.getBoundingClientRect();
 
-ProjectContainer.style.clipPath=`circle(9.5px at ${rect.x + 5}px ${rect.y + 11}px)`;
+ ProjectContainer.style.clipPath=`circle(9.5px at ${rect.x + 5}px ${rect.y + 11}px)`;
 
 }
 
@@ -401,21 +404,38 @@ Back.addEventListener("click",() => {
 // Carousel
 Section5.querySelector(".carousel-container").addEventListener("scroll",() => {
 
-if(Section5.querySelector(".carousel-container").scrollLeft <= 20){Section5.querySelector(".carousel-wrapper .left").classList.remove("active");}else{Section5.querySelector(".carousel-wrapper .left").classList.add("active");}
-if(Section5.querySelector(".carousel-container").scrollLeft >= MaxScrollLeft - 20){Section5.querySelector(".carousel-wrapper .right").classList.remove("active");}else{Section5.querySelector(".carousel-wrapper .right").classList.add("active");}
+ if(Section5.querySelector(".carousel-container").scrollLeft <= 20){
+   
+   Section5.querySelector(".carousel-wrapper .left").classList.remove("active");
+ 
+ }else{
+   
+   Section5.querySelector(".carousel-wrapper .left").classList.add("active");
+ 
+ }
+  
+ if(Section5.querySelector(".carousel-container").scrollLeft >= MaxScrollLeft - 20){
+   
+   Section5.querySelector(".carousel-wrapper .right").classList.remove("active");
+ 
+ }else{
+   
+   Section5.querySelector(".carousel-wrapper .right").classList.add("active");
+ 
+ }
 
 });
 
 Section5.querySelector(".carousel-wrapper .left").addEventListener("click",() => {
 
-Section5.querySelector(".carousel-container").scrollLeft -= 310;
+ Section5.querySelector(".carousel-container").scrollLeft -= 310;
 
 });
 
 
 Section5.querySelector(".carousel-wrapper .right").addEventListener("click",() => {
 
-Section5.querySelector(".carousel-container").scrollLeft += 310;
+ Section5.querySelector(".carousel-container").scrollLeft += 310;
 
 });
 
