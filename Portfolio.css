@@ -202,7 +202,7 @@ line-height:calc(20px + 20px*(var(--i1) - var(--i2))/var(--i3));
 max-width:calc(80% - 10%*(var(--i1) - var(--i2))/var(--i3));}
 
 .logo-container .section2, .logo-container .section3, .logo-container .section4 {
-padding-bottom:calc(150px + 100px*(var(--i1) - var(--i2))/var(--i3));}
+padding-bottom:calc(150px + 50px*(var(--i1) - var(--i2))/var(--i3));}
 
 .logo-container .section1 p, .logo-container .section3 .language, 
 .logo-container .section2 p, .logo-container .section4 span, 
