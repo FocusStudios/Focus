@@ -89,6 +89,7 @@ overflow:hidden;}
 .logo-container h1, 
 .logo-container .section2 span,
 .logo-container .section4 span,
+.logo-container .section5 span,
 .logo-container footer .lists ul .title span,
 .logo-container footer .social-media span,
 .logo-container footer .social-media p {
@@ -260,7 +261,7 @@ margin-top:-15px;}
 .logo-container .section2 span {
 font-size:1rem;
 color:#fff;
-text-shadow:0 1px 3px rgba(51,255,255,0.7);}
+text-shadow:0 1px 5px rgba(51,255,255,0.7);}
 
 .logo-container .section2 p {
 width:85%;
@@ -368,7 +369,7 @@ font-weight:550;
 line-height:30px;
 text-align:center;
 color:#fff;
-text-shadow:0 1px 3px rgba(51,255,255,0.7);}
+text-shadow:0 1px 5px rgba(51,255,255,0.7);}
 
 .logo-container .section4 ul li p {
 position:relative;
@@ -480,7 +481,6 @@ background:rgba(255,255,255,0.1);}
 .logo-container .section5 .wrapper {
 position:relative;
 width:100%;
-padding-top:10px;
 display:flex;
 align-items:center;
 justify-content:space-between;
@@ -489,7 +489,6 @@ background:red;}
 .logo-container .section5 li span {
 font-weight:500;
 font-size:0.75rem;
-color:#fff;
 text-shadow:0 1px 3px rgba(51,255,255,0.8);}
 
 .logo-container .section5 li .rate {
