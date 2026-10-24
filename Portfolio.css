@@ -981,9 +981,7 @@ display:flex;
 justify-content:center;
 align-items:center;
 flex-direction:column;
-gap:30px;
-font-family:"Roboto", sans-serif;
-font-optical-sizing:auto;}
+gap:30px;}
 
 .project-container .Container a, .project-container .Container iframe {
 position:relative;
