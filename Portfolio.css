@@ -247,23 +247,17 @@ padding:20px;
 display:flex;
 align-items:center;
 justify-content:center;
+flex-direction:column;
+gap:20px;
 text-align:center;
 background:var(--background);}
 
 .logo-container .section2 .icon {
-position:absolute;
-top:25px;
 width:100px;
 height:100px;}
 
 .logo-container .section2 span {
-position:absolute;
-bottom:95px;
 font-size:1rem;}
-
-.logo-container .section2 p {
-position:absolute;
-bottom:40px;}
 
 .logo-container .section2 p {
 width:70%;
@@ -331,39 +325,46 @@ font-size:1rem;}
 /* ===== SECTION 4 ===== */
 
 .logo-container .section4 {
-display:flex;
 flex-direction:column;
-align-items:center;
-gap:60px;}
+gap:80px;
+padding-bottom:150px;}
 
 .logo-container .section4 ul {
-list-style:none;
-display:grid;
-gap:80px;}
-
-.logo-container .section4 li {
 position:relative;
-width:200px;
-height:200px;
-border-radius:25px;
-opacity:0;
+width:100%;
+display:grid;
+justify-content:center;
+gap:60px;
+list-style:none;}
+
+.logo-container .section4 ul li {
+position:relative;
+width:250px;
 display:flex;
 align-items:center;
 justify-content:center;
-transform:translateY(50px);
-background:var(--background);
-box-shadow:0 5px 15px rgba(51,255,255,0.2);}
+flex-direction:column;}
 
-.logo-container .section4 .icon {
-position:absolute;
-top:25px;
-width:100px;
-height:100px;}
+.logo-container .section4 ul li img {
+position:relative;
+width:80px;
+height:80px;
+object-fit:cover;}
 
-.logo-container .section4 span {
-position:absolute;
-bottom:45px;
-font-size:1rem;}
+.logo-container .section4 ul li span {
+position:relative;
+width:100%;
+font-size:1rem;
+font-weight:550;
+line-height:30px;
+text-align:center;}
+
+.logo-container .section4 ul li p {
+position:relative;
+width:75%;
+font-size:0.8rem;
+line-height:20px;
+text-align:center;}
 
 /* ===== SECTION 5 ===== */
 
