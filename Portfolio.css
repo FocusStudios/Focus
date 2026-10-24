@@ -337,7 +337,7 @@ justify-content:center;
 flex-direction:column;
 display:flex;
 flex-direction:column;
-gap:60px;
+gap:80px;
 padding-bottom:150px;}
 
 .logo-container .section4 ul {
@@ -345,7 +345,7 @@ position:relative;
 width:100%;
 display:grid;
 justify-content:center;
-gap:60px;
+gap:80px;
 list-style:none;}
 
 .logo-container .section4 ul li {
@@ -460,7 +460,7 @@ box-shadow:0 2px 5px rgba(51,255,255,0.2);}
 position:absolute;
 bottom:0;
 width:100%;
-padding:40px 30px 30px 30px;
+padding:50px 30px 30px 30px;
 display:flex;
 align-items:center;
 justify-content:center;
