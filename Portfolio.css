@@ -252,13 +252,14 @@ background:var(--background);}
 
 .logo-container .section2 .icon {
 width:100px;
-height:100px;}
+height:100px;
+margin-top:10px;}
 
 .logo-container .section2 span {
 font-size:1rem;}
 
 .logo-container .section2 p {
-width:80%;
+width:85%;
 margin-top:5px;
 font-size:0.8rem;
 line-height:20px;}
