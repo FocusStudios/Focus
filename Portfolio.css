@@ -356,14 +356,17 @@ width:100%;
 font-size:1rem;
 font-weight:550;
 line-height:30px;
-text-align:center;}
+text-align:center;
+color:#fff;}
 
 .logo-container .section4 ul li p {
 position:relative;
-width:75%;
+width:80%;
+margin-top:10px;
 font-size:0.8rem;
 line-height:20px;
-text-align:center;}
+text-align:center;
+color:var(--secondary);}
 
 /* ===== SECTION 5 ===== */
 
