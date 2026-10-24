@@ -483,7 +483,8 @@ width:100%;
 padding-top:10px;
 display:flex;
 align-items:center;
-justify-content:space-between;}
+justify-content:space-between;
+background:red;}
 
 .logo-container .section5 li span {
 font-weight:500;
