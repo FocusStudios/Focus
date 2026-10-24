@@ -34,12 +34,12 @@ const services = [
 const languages = ["HTML", "CSS", "JavaScript"];
 
 const features = [
-  {img: "Icons/Diamond.svg", title: "Code", text: "Unique Design"},
-  {img: "Icons/Idea.svg", title: "Create", text: "Creative Ideas"},
-  {img: "Icons/Customize.svg", title: "Responsive", text: "Custom Design"},
-  {img: "Icons/Scalable.svg", title: "Enhance", text: "Scalable Code"},
-  {img: "Icons/OnTime.svg", title: "Animation", text: "Timely Delivery"},
-  {img: "Icons/ShakeHands.svg", title: "Maintainace", text: "Client Support"}
+  {img: "Icons/Diamond.svg", title: "Unique Design", text: "Stand out with creative, modern and original designs."},
+  {img: "Icons/Idea.svg", title: "Creative Ideas", text: "Turning your ideas into beautiful digital experiences."},
+  {img: "Icons/Customize.svg", title: "Custom Design", text: "Tailored solutions that fit your vision and needs."},
+  {img: "Icons/Scalable.svg", title: "Scalable Code", text: "Clean, flexible code that grows with your project."},
+  {img: "Icons/OnTime.svg", title: "On Time Delivery", text: "High quality results, on time, every time."},
+  {img: "Icons/ShakeHands.svg", title: "Client Support", text: "Your success is our priority, always here to help."}
 ];
 
 const reviews = [
@@ -110,7 +110,9 @@ Section4.querySelector("ul").innerHTML += `
 
   <img class="icon" src="${feature.img}">
 
-  <span>${feature.text}</span>
+  <span>${feature.title}</span>
+
+  <p>${feature.text}</p>
 
 </li>
 
