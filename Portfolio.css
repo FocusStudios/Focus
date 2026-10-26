@@ -469,7 +469,8 @@ gap:10px;}
 .logo-container .section5 li p {
 width:100%;
 font-size:0.7rem;
-line-height:18px;}
+line-height:18px;
+padding-top:20px;}
 
 .logo-container .section5 li .line {
 position:relative;
