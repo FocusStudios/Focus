@@ -318,15 +318,6 @@ LogoContainer.addEventListener("scroll",() => {
 
  onScroll();
 
- if(LogoContainer.scrollTop >= Header.offsetHeight + Section1.offsetHeight + Section2.offsetHeight + 0.2 * Section3.offsetHeight){
-
-   Section4.querySelectorAll("li").forEach((Item,index) => {
-    Item.style.animation = "Show5 0.5s ease forwards";
-    Section4.querySelectorAll("li")[index].style.animationDelay = `${index * 0.2}s`;
-   });
-
- }
-
 });
 
 rect = glass.getBoundingClientRect();
