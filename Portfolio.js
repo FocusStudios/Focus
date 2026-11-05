@@ -166,7 +166,7 @@ const Carousel = [
 
   { link: "https://focusstudios.github.io/Carousel/HotelCarousel.html", demo: "https://focusstudios.github.io/Carousel-Demo/Basic1.html", title: "Basic Carousel - Style 1" },
   { link: "https://focusstudios.github.io/Carousel/TeamCarousel.html", demo: "https://focusstudios.github.io/Carousel-Demo/Basic2.html", title: "Basic Carousel - Style 2" },
-  { link: "https://focusstudios.github.io/Carousel/InfiniteSliderH.html", demo: "https://focusstudios.github.io/Carousel-Demo/InfiniteSliderH.html", title: "Infinite Carousel" },
+  { link: "https://focusstudios.github.io/Carousel/MovieCarousel1.html", demo: "https://focusstudios.github.io/Carousel-Demo/InfiniteSliderH.html", title: "Infinite Carousel" },
   { link: "https://focusstudios.github.io/Carousel/RoseCarousel.html", demo: "https://focusstudios.github.io/Carousel-Demo/Slides2.html", title: "Slides - Style 1" },
   { link: "https://focusstudios.github.io/Carousel/WatchCarousel.html", demo: "https://focusstudios.github.io/Carousel-Demo/Slides3.html", title: "Slides - Style 2" },
   { link: "https://focusstudios.github.io/Carousel/BookCarousel.html", demo: "https://focusstudios.github.io/Carousel-Demo/Slides4.html", title: "Slides - Style 3" },
