@@ -164,18 +164,18 @@ const textPs = document.querySelectorAll('.logo-container .percentage');
 // Projects
 const Carousel = [
 
-  { link: "https://focusstudios.github.io/Carousel/Basic1.html", demo: "https://focusstudios.github.io/Carousel-Demo/Basic1.html", title: "Basic Carousel - Style 1" },
-  { link: "https://focusstudios.github.io/Carousel/Basic2.html", demo: "https://focusstudios.github.io/Carousel-Demo/Basic2.html", title: "Basic Carousel - Style 2" },
+  { link: "https://focusstudios.github.io/Carousel/HotelCarousel.html", demo: "https://focusstudios.github.io/Carousel-Demo/Basic1.html", title: "Basic Carousel - Style 1" },
+  { link: "https://focusstudios.github.io/Carousel/TeamCarousel.html", demo: "https://focusstudios.github.io/Carousel-Demo/Basic2.html", title: "Basic Carousel - Style 2" },
   { link: "https://focusstudios.github.io/Carousel/InfiniteSliderH.html", demo: "https://focusstudios.github.io/Carousel-Demo/InfiniteSliderH.html", title: "Infinite Carousel" },
-  { link: "https://focusstudios.github.io/Carousel/Slides2.html", demo: "https://focusstudios.github.io/Carousel-Demo/Slides2.html", title: "Slides - Style 1" },
-  { link: "https://focusstudios.github.io/Carousel/Slides3.html", demo: "https://focusstudios.github.io/Carousel-Demo/Slides3.html", title: "Slides - Style 2" },
-  { link: "https://focusstudios.github.io/Carousel/Slides4.html", demo: "https://focusstudios.github.io/Carousel-Demo/Slides4.html", title: "Slides - Style 3" },
-  { link: "https://focusstudios.github.io/Carousel/Circular.html", demo: "https://focusstudios.github.io/Carousel-Demo/Circular.html", title: "Circular Carousel" },
-  { link: "https://focusstudios.github.io/Carousel/Rotating.html", demo: "https://focusstudios.github.io/Carousel-Demo/Rotating.html", title: "Rotating Carousel" },
-  { link: "https://focusstudios.github.io/Carousel/ImageSlider1.html", demo: "https://focusstudios.github.io/Carousel-Demo/ImageSlider1.html", title: "Image Slider - Style 1" },
-  { link: "https://focusstudios.github.io/Carousel/HorizontalSlider.html", demo: "https://focusstudios.github.io/Carousel-Demo/HorizontalSlider.html", title: "Image Slider - Style 2" },
-  { link: "https://focusstudios.github.io/Carousel/Offers.html", demo: "https://focusstudios.github.io/Carousel-Demo/Offers.html", title: "3D Slider" },
-  { link: "https://focusstudios.github.io/Carousel/Photos.html", demo: "https://focusstudios.github.io/Carousel-Demo/Photos.html", title: "Swiper - Cards" }
+  { link: "https://focusstudios.github.io/Carousel/RoseCarousel.html", demo: "https://focusstudios.github.io/Carousel-Demo/Slides2.html", title: "Slides - Style 1" },
+  { link: "https://focusstudios.github.io/Carousel/WatchCarousel.html", demo: "https://focusstudios.github.io/Carousel-Demo/Slides3.html", title: "Slides - Style 2" },
+  { link: "https://focusstudios.github.io/Carousel/BookCarousel.html", demo: "https://focusstudios.github.io/Carousel-Demo/Slides4.html", title: "Slides - Style 3" },
+  { link: "https://focusstudios.github.io/Carousel/IcecreamCarousel.html", demo: "https://focusstudios.github.io/Carousel-Demo/Circular.html", title: "Circular Carousel" },
+  { link: "https://focusstudios.github.io/Carousel/ProductCarousel.html", demo: "https://focusstudios.github.io/Carousel-Demo/Rotating.html", title: "Rotating Carousel" },
+  { link: "https://focusstudios.github.io/Carousel/CaourseCarousel1.html", demo: "https://focusstudios.github.io/Carousel-Demo/ImageSlider1.html", title: "Image Slider - Style 1" },
+  { link: "https://focusstudios.github.io/Carousel/ShoesCarousel1.html", demo: "https://focusstudios.github.io/Carousel-Demo/HorizontalSlider.html", title: "Image Slider - Style 2" },
+  { link: "https://focusstudios.github.io/Carousel/OfferCarousel.html", demo: "https://focusstudios.github.io/Carousel-Demo/Offers.html", title: "3D Slider" },
+  { link: "https://focusstudios.github.io/Carousel/PhotoCarousel.html", demo: "https://focusstudios.github.io/Carousel-Demo/Photos.html", title: "Swiper - Cards" }
 
 ]
 
