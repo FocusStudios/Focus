@@ -172,7 +172,7 @@ const Carousel = [
   { link: "https://focusstudios.github.io/Carousel/BookCarousel.html", demo: "https://focusstudios.github.io/Carousel-Demo/Slides4.html", title: "Slides - Style 3" },
   { link: "https://focusstudios.github.io/Carousel/IcecreamCarousel.html", demo: "https://focusstudios.github.io/Carousel-Demo/Circular.html", title: "Circular Carousel" },
   { link: "https://focusstudios.github.io/Carousel/ProductCarousel.html", demo: "https://focusstudios.github.io/Carousel-Demo/Rotating.html", title: "Rotating Carousel" },
-  { link: "https://focusstudios.github.io/Carousel/CaourseCarousel1.html", demo: "https://focusstudios.github.io/Carousel-Demo/ImageSlider1.html", title: "Image Slider - Style 1" },
+  { link: "https://focusstudios.github.io/Carousel/CourseCarousel1.html", demo: "https://focusstudios.github.io/Carousel-Demo/ImageSlider1.html", title: "Image Slider - Style 1" },
   { link: "https://focusstudios.github.io/Carousel/ShoesCarousel1.html", demo: "https://focusstudios.github.io/Carousel-Demo/HorizontalSlider.html", title: "Image Slider - Style 2" },
   { link: "https://focusstudios.github.io/Carousel/OfferCarousel.html", demo: "https://focusstudios.github.io/Carousel-Demo/Offers.html", title: "3D Slider" },
   { link: "https://focusstudios.github.io/Carousel/PhotoCarousel.html", demo: "https://focusstudios.github.io/Carousel-Demo/Photos.html", title: "Swiper - Cards" }
