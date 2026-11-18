@@ -386,7 +386,7 @@ color:var(--secondary);}
 .logo-container .section5 {
 position:relative;
 width:100%;
-display:flex;
+display:none;
 align-items:center;
 justify-content:center;
 flex-direction:column;}
@@ -942,7 +942,7 @@ color:transparent;
 background:var(--primary);
 -webkit-background-clip:text;
 background-clip:text;
-text-shadow:2px 2px 8px rgba(0,255,255,0.3);
+text-shadow:0 1px 8px rgba(0,255,255,0.3);
 cursor:default;}
 
 .project-container .back {
